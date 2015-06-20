@@ -79,3 +79,21 @@ footer {
     margin-right: 0.5em;
   }
 }
+
+@media (min-width: 70em) {
+  header {
+    width: 100%;
+  }
+
+  nav {
+    width: 15%;
+  }
+  nav ul {
+    padding-top: 0.5em;
+    display: block;
+  }
+
+  main {
+    width: 60%;
+  }
+}
