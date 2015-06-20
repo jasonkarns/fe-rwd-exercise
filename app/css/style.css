@@ -40,3 +40,18 @@ footer {
   background: rebeccapurple;
   order: 3;
 }
+
+@media (min-width: 40em) {
+  header p {
+    display: initial;
+  }
+
+  nav {
+    order: 0;
+  }
+  nav ul {
+    display: flex;
+    list-style-type: none;
+    justify-content: flex-end;
+  }
+}
