@@ -55,3 +55,27 @@ footer {
     justify-content: flex-end;
   }
 }
+
+@media (min-width: 50em) {
+  body {
+    flex-flow: row wrap;
+  }
+  header, nav, footer {
+    width:100%;
+  }
+  main {
+    width: 75%;
+  }
+  aside {
+    width: 25%;
+  }
+
+  header {
+    padding: 0 2em;
+    text-align: left;
+  }
+  header h1, header p {
+    display: inline-block;
+    margin-right: 0.5em;
+  }
+}
