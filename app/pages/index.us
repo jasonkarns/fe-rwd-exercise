@@ -2,10 +2,42 @@
 <html>
   <head>
     <title><%= pkg.name %></title>
-
     <link rel="stylesheet" type="text/css" href="<%= css %>" media="all" />
   </head>
   <body>
-    <script type="text/javascript" src="<%= js %>"></script>
+    <header>
+      <h1>Header</h1>
+      <p>tagline or subhead</p>
+    </header>
+    <nav>
+      <ul>
+        <li><a href="/">Home</a></li>
+        <li><a href="/blog">Some Really Long Title - Blog</a></li>
+        <li><a href="/contact">Contact</a></li>
+        <li><a href="/videos">Videos</a></li>
+        <li><a href="/about">About Us</a></li>
+      </ul>
+    </nav>
+    <main>
+      <p>Bacon ipsum dolor amet minim officia labore andouille ipsum ea, pastrami cillum velit. Fatback kielbasa cow cupim t-bone pariatur, meatball sunt. Swine laborum commodo ball tip ut kielbasa. Cupim doner culpa, sint ad ut tenderloin ribeye swine. Tenderloin drumstick officia, tail sint labore veniam short ribs consequat in sausage.</p>
+      <p>Cupim chicken pork loin pork belly meatloaf, deserunt enim incididunt mollit excepteur. Excepteur pork belly consectetur ut sausage elit kielbasa. Kevin pork belly turkey reprehenderit short ribs tempor irure enim rump adipisicing ut. Labore ullamco ribeye in short ribs nostrud dolor kielbasa minim ball tip beef pancetta. Cupim eu jowl ad quis, cow meatball consectetur.</p>
+      <p>Tenderloin pastrami ea tri-tip aute adipisicing veniam. Reprehenderit est ut tri-tip quis esse. Excepteur do tenderloin eu non pariatur sunt proident pastrami tail tempor ut cow ham tri-tip. Cupim aliquip tenderloin kielbasa incididunt short ribs do swine turkey eu exercitation. Beef ribs ham hock reprehenderit excepteur duis ut.</p>
+      <p>Nostrud irure id, eiusmod ground round capicola hamburger et short ribs laborum andouille chicken rump spare ribs strip steak. Esse ham beef, qui fatback alcatra landjaeger. Pork chop mollit exercitation, laboris picanha jowl cupidatat strip steak duis ut. Laborum in biltong deserunt qui fugiat. Elit fatback anim turducken.</p>
+      <p>Consectetur eiusmod biltong, ullamco beef cupim cillum turkey exercitation. Duis occaecat elit, chuck nisi rump ground round porchetta culpa ut deserunt cupidatat. Elit doner porchetta, landjaeger shankle ea hamburger in nulla pariatur tail tempor cow. Pastrami kielbasa cillum, andouille bresaola culpa beef ribs doner turkey hamburger boudin.</p>
+    </main>
+    <aside>
+      <blockquote>Consectetur eiusmod biltong, ullamco beef cupim cillum turkey exercitation. Duis occaecat elit, chuck nisi rump ground round porchetta culpa ut deserunt cupidatat. Elit doner porchetta, landjaeger shankle ea hamburger in nulla pariatur tail tempor cow. Pastrami kielbasa cillum, andouille bresaola culpa beef ribs doner turkey hamburger boudin.</blockquote>
+      <p>GitHub</p>
+      <p>Twitter</p>
+    </aside>
+    <footer>
+      <ul>
+        <li>some</li>
+        <li>list</li>
+        <li>of links</li>
+      </ul>
+      <p>and maybe a blurb</p>
+    </footer>
+
   </body>
 </html>
